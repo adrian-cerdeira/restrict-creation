@@ -10,7 +10,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mhsdesign/MhsDesign.PolyfillNeosUiPlowJs"
+            "url": "https://github.com/mhsdesign/MhsDesign.PolyfillNeosUiPlowJs.git"
         }
     ],
     "autoload": {
