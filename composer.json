@@ -4,8 +4,15 @@
     "name": "flowpack/restrictcreation",
     "license": "MIT",
     "require": {
-        "neos/neos": "^8.0 || ^9.0"
+        "neos/neos": "^8.0 || ^9.0",
+        "mhsdesign/polyfillneosuiplowjs": "dev-main"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mhsdesign/MhsDesign.PolyfillNeosUiPlowJs"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Flowpack\\RestrictCreation\\": "Classes/"
