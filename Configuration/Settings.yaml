@@ -4,9 +4,9 @@ Neos:
       resources:
         javascript:
           'Flowpack.RestrictCreation:RestrictCreation':
-            resource: resource://Flowpack.RestrictCreation/Public/JavaScript/RestrictCreation/Plugin.js
+            resource: 'resource://Flowpack.RestrictCreation/Public/JavaScript/RestrictCreation/Plugin.js'
     userInterface:
       translation:
         autoInclude:
-          'Flowpack.RestrictCreation':
+          Flowpack.RestrictCreation:
             - Main
